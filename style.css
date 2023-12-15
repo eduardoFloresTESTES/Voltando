@@ -1,0 +1,27 @@
+
+@charset "UTF-8"; 
+
+*{
+      margin: 0;
+      padding: 0;
+}
+
+body {
+      background-image: url('imagens/Girassol.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 1900px;
+}
+
+main {
+      background-color: rgba(243, 174, 26, 0.842);
+      width: 100vh;
+      height: 100vh;
+      margin: 10px 400px;
+}
+
+p{    padding: 20px;
+      font-size: 100px;
+      text-align: center;
+      color: white;
+}
