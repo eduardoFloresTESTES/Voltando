@@ -16,9 +16,10 @@ body {
 main {
       border-radius: 10px 10px;
       background-color: rgba(243, 174, 26, 0.842);
-      width: 100vh;
+      max-width: 800px;
+      min-width: 320px;
       height: 100vh;
-      margin: 10px 400px;
+      margin: auto;
 }
 button {
       border-radius: 10px 10px;
@@ -31,17 +32,21 @@ button {
 }
 
 img {
-      position: absolute;
-      left: 461px;
-      top: 101px;
-      margin: 165px;
-      width: 455px;
+      max-width:300px;
+      width: auto;
 }
 
 p {   padding: 20px;
       font-size: 100px;
       text-align: center;
       color: white;
+}
+
+.imagem {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
 }
 
 .segundo {
