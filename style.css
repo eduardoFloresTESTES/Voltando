@@ -14,14 +14,37 @@ body {
 }
 
 main {
+      border-radius: 10px 10px;
       background-color: rgba(243, 174, 26, 0.842);
       width: 100vh;
       height: 100vh;
       margin: 10px 400px;
 }
+button {
+      border-radius: 10px 10px;
+      padding: 0;
+      width: 160px;
+      height: 40px;
+      margin-top: 10px;
+      margin-left: 360px;      
+      margin-right: 0px;
+}
 
-p{    padding: 20px;
+img {
+      position: absolute;
+      left: 461px;
+      top: 101px;
+      margin: 165px;
+      width: 455px;
+}
+
+p {   padding: 20px;
       font-size: 100px;
       text-align: center;
       color: white;
+}
+
+.segundo {
+      font-size: 50px;
+      margin: -40px;
 }
